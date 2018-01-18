@@ -1,4 +1,4 @@
-Geocaching service
+## Geocaching service
 
 A node.js express geocaching api project.
 
@@ -42,29 +42,29 @@ To prepare a deployment of project, run that command at project directory:
 
 #   Dependencies:
 
-expressjs - The server for handling and routing HTTP requests
-geolib - to find distances between locations and find if location in a circle
-express-validation - to validate post requests
-joi - to write validation rules 
-pg, pg-promise, bluebird-  For modeling and mapping postgres data 
-body-parser - to parse json requests
-babel * - to use es6 in node.js 
-mocha, chai, and sinon: packages that are used to write test cases                      
+- expressjs - The server for handling and routing HTTP requests
+- geolib - to find distances between locations and find if location in a circle
+- express-validation - to validate post requests
+- joi - to write validation rules 
+- pg, pg-promise, bluebird-  For modeling and mapping postgres data 
+- body-parser - to parse json requests
+- babel * - to use es6 in node.js 
+- mocha, chai, and sinon: packages that are used to write test cases                      
 
 #   Features:
 
-Insert messages to specific locations with latitude and longitude
-Get close messages within a given radius(km) around a certain position with latitude and longitude
-Get the closest message to a certain position  with latitude and longitude
+- Insert messages to specific locations with latitude and longitude
+- Get close messages within a given radius(km) around a certain position with latitude and longitude
+- Get the closest message to a certain position  with latitude and longitude
 
 #   Application Structure:
 
-app.js -  this file defines our express server and  requires the routes we'll be using in the application. The entry point to our application.
-config/ -  configuration variables for our server are contained in this folder
-routes/ -  the route definitions for our API are contained in this folder
-controller/ - Controllers that handle requests with data are contained in this folder
-data/ -  the schema definitions for our postgres models are contained in this folder
-validation/ -  validation rules for our post requests are contained in this folder
+- app.js -  this file defines our express server and  requires the routes we'll be using in the application. The entry point to our - application.
+- config/ -  configuration variables for our server are contained in this folder
+- routes/ -  the route definitions for our API are contained in this folder
+- controller/ - Controllers that handle requests with data are contained in this folder
+- data/ -  the schema definitions for our postgres models are contained in this folder
+- validation/ -  validation rules for our post requests are contained in this folder
 
 #   API
 
