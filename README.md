@@ -213,6 +213,11 @@ Get the closest message to a certain position  with latitude and longitude
             }
             
 
+# TODO
+
+- write more test cases
+- logging
+- authorization
 
 #   License
 
